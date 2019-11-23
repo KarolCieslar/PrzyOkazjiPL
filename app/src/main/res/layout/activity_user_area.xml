@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.globoox.przyokazjiv3.UserAreaActivity">
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twoj login: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WIADOMOSCI"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/buttonRegisterLink"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WYLOGUJ"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignBaseline="@+id/buttonMessage"
+        android:layout_alignBottom="@+id/buttonMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+</RelativeLayout>

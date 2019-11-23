@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.globoox.przyokazjiv3.RegisterActivity">
+
+    <EditText
+        android:id="@+id/editTextUsernameRegister"
+        android:layout_width="368dp"
+        android:hint="Nazwa usera"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="16"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextEmailRegister"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:id="@+id/editTextEmailRegister"
+        android:layout_width="368dp"
+        android:hint="Adres e-mail"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="50"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_below="@+id/editTextUsernameRegister"
+        android:layout_alignStart="@+id/editTextPasswordRegister" />
+
+    <EditText
+        android:id="@+id/editTextPasswordRegister"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:hint="Podaj swoje hasło"
+        android:ems="10"
+        android:maxLength="30"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="123dp"
+        android:layout_below="@+id/editTextEmailRegister"
+        android:layout_alignStart="@+id/editTextPasswordRepeatRegister" />
+
+    <EditText
+        android:id="@+id/editTextPasswordRepeatRegister"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:hint="Podaj hasło ponownie"
+        android:ems="10"
+        android:maxLength="30"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="173dp"
+        android:layout_below="@+id/editTextPasswordRegister"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZAREJESTRUJ"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="151dp"
+        android:layout_below="@+id/editTextPasswordRepeatRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+</RelativeLayout>

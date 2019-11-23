@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Przy Okazji v3</string>
+    <string name="passNotMatch">Wprowadzone przez Ciebie hasła nie są identyczne!</string>
+    <string name="passLenghtLow">Wprowadzone hasło jest za krótkie! Twoje hasło powinno posiadać conajmniej 5 znaków!</string>
+    <string name="emailNotVaild">Podany tekst nie jest emailem!</string>
+    <string name="usernameLenghtLow">Wprowadzony nick jest za krótki! Twój nick powinien posiadać conajmniej 5 znaków!</string>
+    <string name="formEmpty">Proszę wypełnić wszystkie pola w formularzu!</string>
+    <string name="registerError">Ups.. coś nie tak:\n</string>
+    <string name="registerSuccess">Świetnie! Twoje konto zostało pomyślnie założone.</string>
+    <string name="registerSuccessButton">PRZEJDŹ DO LOGOWANIA.</string>
+    <string name="loginFailed">Logowanie nieudane! \n (Błąd: </string>
+    <string name="tryAgain">Spróbuj ponownie</string>
+    <string name="messageSendButton">Super!</string>
+    <string name="noMessagesToDisplay">Nie posiadasz wiadomosci!</string>
+    <string name="chat_enterText">Napisz coś...</string>
+    <string name="chat_emptyMessage">Wiadomość nie może być pusta!</string>
+    <string name="loadingMessage">Ladowanie wiadomosci...</string>
+</resources>

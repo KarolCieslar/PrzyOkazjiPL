@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.globoox.przyokazjiv3.LoginActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPasswordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="ZALOGUJ SIĘ"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <EditText
+        android:id="@+id/editTextUsernameLogin"
+        android:layout_width="368dp"
+        android:hint="Login"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="GlobooX"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/editTextPasswordLogin"
+        android:layout_width="368dp"
+        android:hint="Hasło"
+        android:text="dupa123"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:layout_below="@+id/editTextUsernameLogin"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZALOGUJ SIĘ"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/editTextPasswordLogin"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REJESTRACJA"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="111dp"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/picture_frame" >
+
+
+    <TextView
+        android:id="@+id/textViewSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold|italic"
+        android:text="SENDEER" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewSender"
+        android:layout_marginEnd="13dp"
+        android:textSize="10dp"
+        android:text="23 maj, 131:10" />
+
+    <TextView
+        android:id="@+id/textViewRoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewSender"
+        android:layout_below="@+id/textViewSender"
+        android:textSize="9dp"
+        android:text="JAKA TRASA" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="MESSAGE"
+        android:layout_below="@+id/textViewSender"
+        android:layout_alignEnd="@+id/textViewTime"
+        android:layout_alignStart="@+id/textViewSender" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/textViewRoad"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/>
+
+
+</RelativeLayout>
